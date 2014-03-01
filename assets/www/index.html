@@ -11,8 +11,7 @@
 	<script type="text/javascript" src="jquery.mobile/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="jquery.mobile/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="jquery.mobile/jquery.mobile-1.4.1.min.js"></script>
-	<!--<script type="text/javascript" charset="utf-8" src="cordova.js"></script>-->
-	
+	<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
 	</head> 
 
 <body>
@@ -20,74 +19,249 @@
 <!-- Start of first page: #one -->
 <div data-role="page" id="main">
 
-	<div data-role="header">
+	<div data-role="header" data-theme="a">
 <img src="images/esoguieee_yatay_logo_png-300x111.png" alt="ESOGU IEEE Student Branch" style="width:100%;">
 	</div><!-- /header -->
-	<div role="main" class="ui-content" >
-		<a href="#about" class="ui-btn ui-mini ui-btn-inline ui-btn-a" data-rel="dialog" data-transition="flip">Hakkımızda</a>
-		<a href="#two" class="ui-btn ui-mini ui-btn-inline ui-btn-b" data-rel="dialog" data-transition="flip">2GSA</a>
-		<a href="#grad" class="ui-btn ui-mini ui-btn-inline ui-btn-c" data-rel="dialog" data-transition="flip">Mezunlar Söyleşisi</a>
-		<a href="#cs" class="ui-btn ui-mini ui-btn-inline ui-btn-d" data-rel="dialog" data-transition="flip">CS 101/202</a>
-		<a href="#acad" class="ui-btn ui-mini ui-btn-inline ui-btn-e" data-rel="dialog" data-transition="flip">IEEE Academic</a>
-		<a href="#kard" class="ui-btn ui-mini ui-btn-inline ui-btn-f" data-rel="dialog" data-transition="flip">ITKK</a>
+	<div role="main" class="ui-content">
+		<a href="#ieee" class="ui-btn ui-btn-b" data-rel="dialog" data-transition="flip">IEEE Hakkında</a>
+		<a href="#about" class="ui-btn ui-btn-f" data-rel="dialog" data-transition="flip">ESOGU IEEE Hakkında</a>
+		<a href="#events" class="ui-btn ui-btn-c" data-rel="dialog" data-transition="flip">Etkinliklerimiz</a>
+		<a href="#com" class="ui-btn ui-btn-d" data-rel="dialog" data-transition="flip">İletişim Bilgileri</a>
+		<a href="#" onclick="window.open('http://esogu-ieee.com/', '_system');" class="ui-btn ui-btn-e" data-rel="dialog" data-transition="flip">Web Sitesi</a>
 	</div><!-- /content -->
 
-	<div data-role="footer">
-		<h4>Derse girmek zorunluluktur, IEEE farkındalık.</h4>
-	</div><!-- /footer -->
+  <div data-role="footer" data-position="fixed" data-theme="a" style="background:#4E616D;color:#b8d2e3;text-shadow:none;">
+  <h4 style="font-size:small;">Derse girmek zorunluluktur, IEEE farkındalık.</h4>
+  </div><!-- /footer -->
 </div><!-- /page one -->
+
+<!-- Start of second page: #ieee -->
+<div data-role="page" id="ieee">
+	<div role="main" class="ui-content"  style="font-size:small;">
+	<a role="button" href="#main" data-rel="back" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+	
+	<h3>IEEE Hakkında</h3> 
+	
+<p>IEEE mühendisliğin yaratıcılık, geliştirme, bütünleştirme, paylaştırma işlevine , insanlığa yararlı bilimlere ve uzmanlık alanlarına katkıda bulunan kar amacı gütmeyen teknik bir mesleki organizasyondur. Tarihi gelişimine baktığımızda AIEE (Amerikan Elektrik Mühendisleri Enstitüsü) ve IRE (Radyo Mühendisleri Enstitüsü) topluluklarının birleşmesi ile 1963 yılında resmen kurulan IEEE, dünya genelindeki en büyük teknik organizasyonlardan birisidir. IEEE tüm dünyada Elektrik-Elektronik ve Bilgisayar Mühendisliği yayınlarının yaklaşık %25 ‘ini tek başına yayınlamaktadır;</p>
+<ul>
+<li>Aylık yayınlanan dergiler, kitaplar, standartlar, konferans notları, elektronik ürünler ve çeşitli medya ürünlerini yayınlama programı,</li>
+<li>Yılda 300 den fazla konferans,</li>
+<li>700 den fazla standart geliştirme grupları,</li>
+<li>39 Teknik Kurum ve bir Teknik Konsey.</li>
+</ul>
+<p>IEEE, üyelerinin hayat boyu süren öğrenim sürecinde onlara mesleki açıdan çok önemli yardımlarda bulunur;</p>
+<ul>
+<li>Ulusal ve uluslararası konferanslar, seminerler, kariyer geliştirme ve network üzerine mesleki toplantılar,</li>
+<li>Gönüllü aktivitelerle liderlik ve diğer kişisel becerileri geliştirme fırsatı,</li>
+<li>300 den fazla sürekli-eğitim ve geliştirme programı,</li>
+<li>Kariyer yönetimi ekipmanları ve kaynak materyaller,</li>
+<li>Finansal servisler ve portatif yarar programları.</li>
+</ul>
+<p>IEEE dünya çapındaki üyelerinden oluşan bir topluluğu şöyle oluşturur:</p>
+<ul>
+<li>IEEE “Society” , “Section” , “Chapters” ve ”Student Branch” lerden oluşan geniş bir ağdır,</li>
+<li>Endüstriyel ve mesleki hayatın gelişmesine hizmet eden bir araçtır,</li>
+<li>Mühendislerin başarılarını ödüllendirerek varlıklarını kabul eder,</li>
+<li>Dünya çapındaki diğer teknik organizasyonlarla birliktelik kurar.10 bölgeye ayrılan IEEE’de bölgelerin işlevleri şunlardır:
+<ul>
+<li>Bölgeler, öğrenci toplulukları gibi çeşitli alt grupları kendi aralarında kapsamlı organizasyon, seminer ve kongreler yapmaya teşvik eder.</li>
+<li>Bölge dahilindeki alt grupların birbirleriyle iletişimini sağlar. Öğrenci toplulukları vecoğrafi birliklerin IEEE ile iletişiminde aracılık yapar.</li>
+<li>Üyelik ihtiyaçlarına paralel olarak var olan veya geliştirilmekte olan eğitim aktivitelerini teşvik eder ve üyelere bu konuda yardımlarda bulunur.</li>
+<li>IEEE üyelerine profesyonel çalışmalara dahil olma imkanı sağlar. Bu konulardaki organizasyonlara katılmalarını teşvik eder, teknik kaynak sağlar, çalışmaları destekler.</li>
+</ul>
+</li>
+</ul>
+<p><strong>IEEE Vizyonu</strong></p>
+<p>Teknolojik gelişme ve yenilikleri teşvik ederek küresel zenginliği artırmak, üyelerinin kişisel gelişimini sağlamak ve topluluğu dünya çapında ilerletmek.</p>
+<p><strong>IEEE Misyonu</strong></p>
+<p>İnsanlığın ve mesleğin yararı için elektro teknoloji, bilgi teknolojileri ve fen bilimleri hakkındaki mühendislik yöntemleri olan yaratmayı, geliştirmeyi, bütünlemeyi, paylaştırmayı ve bilgiyi uygulamayı teşvik etmektir.</p>
+<p><strong>IEEE Ahlak Kuralları</strong></p>
+<p>Biz IEEE üyeleri, dünyadaki yaşam kalitesini etkilemede teknolojimizin öneminin farkında olarak; ve mesleğimize, üyelere ve komitelerimize karşı kişisel ödevimizi kabul ederek, kendimizi buradaki ahlaki ve profesyonel tavra adıyor ve:</p>
+<ol>
+<li>Güvenlik, sağlık ve toplumun iyiliği ile ilgili mühendislik kararlarını almada sorumluluğu kabul edeceğimizi ve çevreyi ve toplumu tehlikeye atabilecek etkenleri derhal açıklayacağımızı;</li>
+<li>Açık veya hissedilen çıkar çatışmalarından her zaman kaçınacağımızı ve eğer var olursa etkilenen tarafları bilgilendireceğimizi;</li>
+<li>Eldeki bilgiye dayanan tahminlerde ve hak iddialarında gerçekçi ve dürüst olacağımızı;</li>
+<li>Rüşvetin her türlüsünü reddedeceğimizi;</li>
+<li>Teknoloji anlayışını, uygun uygulamalarını ve olası sonuçlarını geliştireceğimizi;</li>
+<li>Teknolojik rekabeti koruyacağımızı ve geliştireceğimizi, ve ancak eğitim ve deneyimle hak kazanıldığında veya ilgili kısıtlamaların tamamıyla ifşası sonrasında başkalarının teknolojik görevlerini üstleneceğimizi;</li>
+<li>Hataları fark etmek ve düzeltmek için ve başkalarının katılımlarını sağlamak için teknik işin dürüst eleştirisini arayacağımızı, kabul edeceğimizi ve önereceğimizi;</li>
+<li>Irk, dil, din, cinsiyet, özürlülük, yaş veya milliyet ayrımı yapmadan herkese eşit davranacağımızı;</li>
+<li>Başkalarının malına,itibarına, veya işine kasten veya bilmeyerek zarar vermekten kaçınacağımızı;</li>
+<li>Meslektaşlarıma ve kuruluş arkadaşlarıma mesleksel gelişimlerinde yardım edeceğimizi ve onların bu kurallara uymalarını destekleyeceğimizi, kabul ediyoruz.</li>
+</ol>
+<p><strong>IEEE Tarihçesi</strong></p>
+
+<p>IEEE ve öncüleri AIEE (American Institute of Electrical Engineers-Amerikan Elektrik Mühendisleri Kuruluşu) ve IRE(Institute of Radio Engineers- Radyo Mühendisleri Kuruluşu) 1884 yılına uzanır.En başından beri IEEE, elektro teknolojinin ve bununla bağlantılı bilimlerin kuram ve uygulamalarını ileriye götürmüş, teknolojik yenilik ve gelişmeler için katalizör görevi yapmış ve üyelerinin ihtiyaçlarını geniş çeşitlilikteki program ve hizmetleriyle desteklemiştir.</p>
+
+<p><strong>19. Yüzyıldaki Büyüme:</strong></p>
+<p>19. yüzyılın son çeyreğine elektrik teknolojisindeki büyüme damgasını vurmuştur. 1880`lerin başında,</p>
+<p>· telgraf kabloları ABD`yi çaprazlama donatmıştı.</p>
+<p>· su altından kablo yoluyla Amerika ve Avrupa arasında bağlantı kurulmuştu.</p>
+<p>· ark lambaları belli başlı şehirlerde kullanımdaydı.</p>
+<p>· Thomas Edison`un Pearl Street İstasyonu New York`taki elektrik lambalarının güç ihtiyacını karşılıyordu.</p>
+<p>· çok sayıda elektrikli alet üreten firma mevcuttu.</p>
+<p>· telefonun haberleşme cihazı olarak önemi giderek artmaktaydı.</p>
+<p>Teknolojideki bu büyüme ve Philadelphia`daki Franklin Kuruluşu`nun elektrik konulu uluslar arası bir sergi düzenleme planları; içinde Thomas Edison, Elihu Thomson ve Edwin Houston`un da bulunduğu, Amerika`nın önde gelen yirmi beş elektrik mühendisinin bir araya gelerek … bir toplumun oluşumu için çağrı yayımlamalarına yol açtı. 13 Mart 1884`te AIEE New York`ta kuruldu ve kısa sürede Amerikan elektrik mühendislerinin temsilcisi olarak kabul gördü.</p>
+<p><strong>AIEE –Kablolu Haberleşme Işık ve Güç:</strong></p>
+<p>Kuruluşundan itibaren AIEE`nin ana ilgi alanları şunlardı:</p>
+<p>· Kablolu haberleşme ve</p>
+<p>· Işık ve güç sistemleri.</p>
+<p>Elektriğe dayalı sanayi standartlarının geliştirilmesinde öncü olan ve bu sürece etkin olarak katılan AIEE elektrikle ilgili standart çalışmaları için ABD geneline tesislerini yaydı. İlk 30 yıllık süreçte kuruluş şu gibi iç meselelerle yüzleşmiş ve bunlara çözüm bulmuştur:</p>
+<p>· örgütlenme için kalıcı karargahların yerleştirilmesi</p>
+<p>· uzaklara yayılmış üyelerle ve öğrencilerle kurulacak bağlantı için bir işleyiş geliştirilmesi</p>
+<p>· artan uzmanlaşma sorununu çözmek için kurulan komiteler yardımıyla yeni teknik ilgi alanlarını teşvik etmek</p>
+<p>Ancak 1912`den itibaren, genişlemekte olan radyo alanında uzmanlaşanların ilgi alanları ve ihtiyaçları yerel ve periyodik olarak yapılan teknik komite toplantılarıyla karşılanamamaya başladı.</p>
+<p>IRE –Kablosuz Haberleşme:</p>
+<p>İki büyük yerel örgütlenme –Telsiz ve Telgraf Mühendisleri Topluluğu ve Telsiz Kuruluşu–</p>
+<p>birleşerek kablosuz haberleşmenin geliştirilmesine katılan bilim adamları ve mühendisler için bir kuruluş oluşturdular –Radyo Mühendisleri Kuruluşu.</p>
+<p>IRE`nin başlangıç üyelerinin çoğu aynı zamanda AIEE`nin de üyesiydiler ve iki kuruluş birleşip IEEE`yi oluşturana kadar (1963) ortak üyelere sahip olmaya devam etti. IRE ve AIEE`nin yapısal gelişimi ve genel etkinlikleri benzerdi.</p>
+<p>· Merkezi bir yönetimin altındaki profesyonel gruplarda uzmanlaşmış alt parçalar toplanmıştı.</p>
+<p>· Coğrafi birimler ve öğrenci kolları oluşturulmuştu.</p>
+<p>· Toplantılar ve yayınlar geniş bir literatür oluşturmayı ve bilgi alışverişini hızlandırıyordu.</p>
+<p>Radyo teknolojinin doğası gereği IRE`nin ilgi alanı doğal sınırlarının çok ötesine geçti.Bu yüzden, yeni kuruluş birçok ülkeden üye çekti ve sonunda belirli alanlarda dünyanın birçok yerinde birimler kurdu. IRE Tutanakları`nın başlangıcından itibaren düzenli olarak ABD dışından yazarların yazıları yayımlandı.</p>
+<p><strong>“Elektronik`in” Katılımı</strong></p>
+<p>1930`larda elektronik elektrik mühendisliği terimleri arasına girdi. Elektronik mühendisleri IRE`nin üyesi olmaya başladılar fakat; elektron tüpü teknolojisinin uygulamaları o kadar yaygınlaştı ki IRE ve AIEE`yi birbirinden ayıran teknik sınırlar ayırt edilememeye başladı.</p>
+<p>II.Dünya Savaşı`ndan sonra, iki kuruluş artan bir rekabetin içine girdiler.çabaların örtüşmesi ve ikiye katlanması sorunu arttı, birleştirilen komiteler ve toplantılarla sadece kısmen çözülebildi.</p>
+<p><strong>AIEE ve IRE IEEE`yi Oluşturma Yolunda:</strong></p>
+<p>1961`de IRE ve AIEE`nin önderleri bu sorunları birleşme yoluyla çözmeye karar verdiler.</p>
+<p>Bir sonraki yıl birleşme planı hazırlandı ve 1 Ocak 1963`te gerçekleştirildi.</p>
+
+
+	</div><!-- /content -->
+</div><!-- /page ieee -->
+
 
 
 <!-- Start of third page: #about -->
 <div data-role="page" id="about">
-	<div role="main" class="ui-content">
+	<div role="main" class="ui-content"  style="font-size:small;">
+	<a role="button" href="#main" data-rel="back" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+	
+	<h3>ESOGU IEEE Hakkında</h3> 
+	
 		<p>Eskişehir Osmangazi Üniversitesi IEEE Öğrenci Kolu, başta tüm mühendislik fakülteleri olmakla beraber, tüm bölümlere hitap eden bir koldur. Kulübümüz, sene içerisinde üyelerimize yönelik konferanslar ve seminerler düzenlenmesi, teknik dersler verilmesi, sosyal ve teknik gezilerin organize edilmesi amacıyla Eskişehir Osmangazi Üniversitesi Mühendislik – Mimarlık Fakültesi Elektrik Elektronik Mühendisliği Bölümü bünyesinde faaliyet göstermektedir.</p>
 		<p>Eskişehir Osmangazi Üniversitesi IEEE Öğrenci Kolu, sadece teknik temelli bir kulüp olmayıp üyelerinin sosyal yaşamları ile ilgili sorumluluk üstlenir. Tanışma yemekleri, geziler ve benzeri etkinlikler üyelerin sosyal bireyler olması için yapılan çalışmalardan bazılarıdır. Eskişehir Osmangazi Üniversitesi IEEE Öğrenci Kolu üyelerinin mesleki ilgi alanları ile bilgilenmesini, fikir dünyalarının gelişmesini, kişisel özelliklerinin ortaya çıkarılıp bu eğilimlere göre iş bölümü kavramının geliştirilmesini sorumluluğu bilir.</p>
 		<p>Eskişehir Osmangazi Üniversitesi IEEE Öğrenci Kolu, Türkiye’de ve dünyada olan gelişmeleri yakından takip etmek amacıyla Türkiye ve dünyanın çeşitli bölgelerindeki öğrenciler ile iletişim içinde olup bilgi ve fikir alışverişinde bulunur.</p>
-		<p><a href="#main" data-rel="back" class="ui-btn ui-mini ui-btn-inline ui-icon-back ui-btn-icon-left">Geri Dön</a></p>
+
+		
+	<h3>ESOGU IEEE Yönetim Kurulu</h3> 
+	
+	<ul>
+	<li>Rasih Arıkan
+-
+Kulüp Başkanı</li>
+	<li>Mehmet Bahtiyar Şahin
+-
+Başkan Yardımcısı</li>
+	<li>Büşra Töre
+-
+Sekreter</li>
+	<li>Murat Adıyaman
+-
+Finansal Direktör</li>
+	<li>Elif Ünalan
+-
+Yönetim Kurulu Üyesi</li>
+	<li>Bahadır Akın Akgül
+-
+Yönetim Kurulu Üyesi</li>
+	</ul>
+		
+	<h3>ESOGU IEEE İdari Kurul</h3> 
+	
+	<ul>
+	<li>Rasih Arıkan
+-
+Kulüp Başkanı</li>
+	<li>Mehmet Bahtiyar Şahin
+-
+Başkan Yardımcısı, 2 Günde Şirket-i Alem Etkinlik Koordinatörü</li>
+	<li>Büşra Töre
+-
+Sekreter</li>
+	<li>Murat Adıyaman
+-
+Finansal Direktör</li>
+	<li>Elif Ünalan
+-
+Yönetim Kurulu Üyesi, Women in Engineering Sorumlusu</li>
+	<li>Bahadır Akın Akgül
+-
+Yönetim Kurulu Üyesi, Computer Society Sorumlusu</li>
+<li>Gökçe Elif Aydın
+-
+Power and Energy Society Sorumlusu</li>
+<li>Büşra Gülen
+-
+Engineering in Biology and Medicine Society Sorumlusu</li>
+<li>Emre Ateş
+-
+IEEE Türkiye Kardeş Kollar Projesi Temsilcisi</li>
+<li>Mehmet Tuncar
+-
+Young Professionals Program (eski adıyla GOLD) Temsilcisi</li>
+<li>Hilal Şahiner
+-
+Sponsorluk ve Halkla İlişkiler Komitesi Sorumlusu</li>
+<li>Gülsüm Nurdan Can
+-
+Teknik Gezi ve Sosyal Organizasyon Komitesi Sorumlusu</li>
+<li>Merve Gümüşkaya
+-
+Tasarım Komitesi Sorumlusu</li>
+	</ul>
 	</div><!-- /content -->
 </div><!-- /page about -->
 
 
-<!-- Start of second page: #two -->
-<div data-role="page" id="two">
-	<div role="main" class="ui-content">
-		<p>Geçtiğimiz yıl beşincisi düzenlenen ve geleneksel hale getirdiğimiz etkinlik çerçevesinde, Türkiye'nin çeşitli üniversitelerinden gelen mühendislik öğrencileri ile sektörde söz sahibi firmaların temsilcileri ve kişisel gelişim uzmanları buluşturulmaktadır. Katılım gösteren dinleyicilerin kişisel gelişimine katkıda bulunmak ve geleceğini şekillendirmesine yardımcı olacak konular hakkında sunumlar yapılması planlanmaktadır. Şirketlerin kendilerini tanıtmaları amacıyla açılacak stantlarla; öğrenciler katılan şirketleri daha yakından tanıma fırsatı bulacaklardır. Amacımız öğrencilerin uzman kişilerin anlatımıyla istedikleri firmaları ve sektörleri rahatlıkla tanıyabilmesidir.</p>
-		<p><a href="#main" data-rel="back" class="ui-btn ui-mini ui-btn-inline ui-icon-back ui-btn-icon-left ui-btn-a">Geri Dön</a></p>
-	</div><!-- /content -->
-</div><!-- /page two -->
 
 
-<!-- Start of second page: #grad -->
-<div data-role="page" id="grad">
-	<div role="main" class="ui-content">
+<!-- Start of second page: #events -->
+<div data-role="page" id="events">
+	<div role="main" class="ui-content"  style="font-size:small;">
+	<a role="button" href="#main" data-rel="back" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+	
+	<h3>Mezunlar Söyleşisi</h3> 
+	
 		<p>Geçtiğimiz yıl beşincisi düzenlenen Mezunlar Söyleşisi etkinliğinde temel amaç, Eskişehir Osmangazi Üniversitesi mezunları ile öğrencileri bir araya getirerek öğrencilerin gelecekte iş yaşamında karşılacakları zorlukları öğrenebilecekleri, yeni-orta-eski mezunların yardımı ile önlerini görebilecekleri gelenekselleşmiş bir etkinliktir.<p>
 		<p>Etkinlik moderatörlüğünü bir senelik bir ara haricinde Prof.Dr. Osman Parlaktuna’na tarafından yapılan etkinlik, Eskişehir Osmangazi Üniversitesi ve Anadolu Üniversitesi Elektrik-Elektronik Mühendisliği Mezunları Derneği’nin büyük yardımları ile gerçekleştirilmektedir.</p>
-		<p><a href="#main" data-rel="back" class="ui-btn ui-mini ui-btn-inline ui-icon-back ui-btn-icon-left ui-btn-a">Geri Dön</a></p>
+		
+	<h3>CS 101/202</h3> 
+	
+	<p>
+Bazı üniversitelerdeki Computer Science 101 dersinden esinlenerek ismi verilen CS kodlu etkinlik serimizde temel amacımız, üniversite öğrencilerine yazılım dünyasındaki son gelişmeler hakkında konunun uzman eğitmenleri aracılığıyla birebir şekilde eğitimler vermek, öğrencilerin farkındalık seviyelerini yukarıya çekmektir. Genellikle atölye çalışması şeklinde ilerleyen etkinliğimizde şimdiye değin Android, iOS, Windows Phone 8, Windows 8.1, Unity ile oyun programlama, Robosapien (Microsoft Kinect ile robot kontrolü), Jquery üzerine eğitimler yapılmış, katılımcılardan ve eğitmenlerden oldukça olumlu yorumlar alınmıştır.</p>
+		
+			
+	<h3>2 Günde Şirket-i Alem</h3> 
+	
+	<p>Geçtiğimiz yıl beşincisi düzenlenen ve geleneksel hale getirdiğimiz etkinlik çerçevesinde, Türkiye'nin çeşitli üniversitelerinden gelen mühendislik öğrencileri ile sektörde söz sahibi firmaların temsilcileri ve kişisel gelişim uzmanları buluşturulmaktadır. Katılım gösteren dinleyicilerin kişisel gelişimine katkıda bulunmak ve geleceğini şekillendirmesine yardımcı olacak konular hakkında sunumlar yapılması planlanmaktadır. Şirketlerin kendilerini tanıtmaları amacıyla açılacak stantlarla; öğrenciler katılan şirketleri daha yakından tanıma fırsatı bulacaklardır. Amacımız öğrencilerin uzman kişilerin anlatımıyla istedikleri firmaları ve sektörleri rahatlıkla tanıyabilmesidir.</p>
+		
+		
+		
 	</div><!-- /content -->
-</div><!-- /page grad -->
+</div><!-- /page events -->
 
 
-<!-- Start of second page: #acad -->
-<div data-role="page" id="acad">
-	<div role="main" class="ui-content">
-		<p>Gerçek bir çoklu dil desteğine sahip IEEE Academic, üniversite öğrencileri ve akademisyenlerin beraberce içerik oluşturdukları bir çevrimiçi eğitim kaynağıdır.</p>
-		<p>Teknoloji geliştikçe, öğrenciler eğitim materyalleri bulmak için interneti kullanmaktadır.</p>
-		<p>IEEE Academic, içerikleri birçok yerel kaynaktan gelen çevrimiçi eğitim materyallerini öğrencilerin ihtiyaçları doğrultusunda onlara sunma amacı taşıyan çevrimiçi bir içerik portalıdır.</p>
-		<p>Eskişehir Osmangazi Üniversitesi, Türkiye’de bu projenin bir nevi liderliğini yapmış, danışmanımız Sayın Prof.Dr. Hasan Hüseyin Erkaya’nın destekleri ile Electronics I dersi için video çekimlerini tamamlamıştır.</p>
-		<p><a href="#main" data-rel="back" class="ui-btn ui-mini ui-btn-inline ui-icon-back ui-btn-icon-left ui-btn-a">Geri Dön</a></p>
+<!-- Start of second page: #com -->
+<div data-role="page" id="com">
+	<div role="main" class="ui-content"  style="font-size:small;">
+	<a role="button" href="#main" data-rel="back" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+	
+	<h3>İletişim Bilgileri</h3> 
+	<h4>Adres</h4>
+	  <p>Eskisehir Osmangazi University
+Electrical Engineering Department (26480) Batimeselik, Eskisehir, Turkey</p>
+	  
+	<h4>Sosyal Medya</h4>
+	
+		<p>
+      <a href="#" onclick="window.open('http://www.facebook.com/esoguieee', '_system');" target="_blank" class="ui-btn ui-mini ui-btn-a">Facebook</a>
+      <a href="#" onclick="window.open('http://twitter.com/ESOGUIEEE', '_system');" target="_blank" class="ui-btn ui-mini ui-btn-b">Twitter</a>
+      <a href="#" onclick="window.open('http://www.youtube.com/channel/UCsBhfk9jWxtfbChK-8iERuw', '_system');" target="_blank" class="ui-btn ui-mini ui-btn-d">Youtube</a>
+	  </p>
 	</div><!-- /content -->
-</div><!-- /page acad -->
+</div><!-- /page com -->
 
 
-<!-- Start of second page: #kard -->
-<div data-role="page" id="kard">
-	<div role="main" class="ui-content">
-		<p>Bir&nbsp;koordinasyon ekibi tarafından takip mekanizması içerisinde yürüyen ITKK, Türkiye IEEE bünyesindeki kolları eşleştirmeyi hedefler. Bu eşleştirmelerin amacı, hem kollar arası tecrübe aktarımını sağlamak,&nbsp;hem yeni kurulan kollara destek olmak, hem ortak etkinlikler çıkararak daha geniş kitlelere hitap edebilmek, hem de iki kol arasında “kardeş” tabirini kullanarak kollardaki öğrencilerin network vizyonlarını geliştirmektir. Koordinasyon ekibi tarafından, bu yukarıda bahsettiğimiz amaçlar kontrol ve takip edilerek projenin amacına ulaşması sağlanır. Eskişehir Osmangazi Üniversitesi olarak 3 yıl önce Karadeniz Teknik Üniversitesi, 2 yıl önce Hacettepe Üniversitesi, geçen sene Bilkent ve 9 Eylül Üniversiteleri ile kardeşlik sağlanmıştır.</p>
-		<p>Bu sene ise kulübümüz <strong>İstanbul Teknik Üniversitesi, Doğuş Üniversitesi ve Beykent Üniversitesi</strong> ile kardeş olmuştur.&nbsp;<strong>Ayrıca kulübümüz yönetim kurulu üyesi Elif Ünalan ITKK Koordinasyon Ekibi’nde görev almaktadır.</strong></p>
-		<p>Bu kardeşlikler sayesinde yaptığımız etkinliklerimiz Eskişehir içerisinde kalmamakta, başka şehirlere de taşınmaktadır.</p>
-		<p><a href="#main" data-rel="back" class="ui-btn ui-mini ui-btn-inline ui-icon-back ui-btn-icon-left ui-btn-a">Geri Dön</a></p>
-	</div><!-- /content -->
-</div><!-- /page kard -->
 </body>
 </html>
