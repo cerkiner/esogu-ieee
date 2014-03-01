@@ -1121,8 +1121,8 @@ html .ui-bar-f .ui-btn:visited,
 html .ui-body-f .ui-btn:visited,
 html body .ui-group-theme-f .ui-btn:visited,
 html head + body .ui-btn.ui-btn-f:visited {
-	background: #5E5E5E /*{f-bup-background-color}*/;
-	border-color: #5E5E5E /*{f-bup-border}*/;
+	background: #18DF37 /*{f-bup-background-color}*/;
+	border-color: #18DF37 /*{f-bup-border}*/;
 	color: #FFFFFF /*{f-bup-color}*/;
 	text-shadow: 1px /*{f-bup-shadow-x}*/ 1px /*{f-bup-shadow-y}*/ 1px /*{f-bup-shadow-radius}*/ #000 /*{f-bup-shadow-color}*/;
 }
@@ -1132,7 +1132,7 @@ html .ui-bar-f .ui-btn:hover,
 html .ui-body-f .ui-btn:hover,
 html body .ui-group-theme-f .ui-btn:hover,
 html head + body .ui-btn.ui-btn-f:hover {
-	background: #5E5E5E /*{f-bhover-background-color}*/;
+	background: #18DF37 /*{f-bhover-background-color}*/;
 	border-color: #F0F0F0 /*{f-bhover-border}*/;
 	color: #FFF /*{f-bhover-color}*/;
 	text-shadow: 0 /*{f-bhover-shadow-x}*/ 0 /*{f-bhover-shadow-y}*/ 0 /*{f-bhover-shadow-radius}*/ #000 /*{f-bhover-shadow-color}*/;
@@ -1143,7 +1143,7 @@ html .ui-bar-f .ui-btn:active,
 html .ui-body-f .ui-btn:active,
 html body .ui-group-theme-f .ui-btn:active,
 html head + body .ui-btn.ui-btn-f:active {
-	background: #5E5E5E /*{f-bdown-background-color}*/;
+	background: #18DF37 /*{f-bdown-background-color}*/;
 	border-color: #dddddd /*{f-bdown-border}*/;
 	color: #FFF /*{f-bdown-color}*/;
 	text-shadow: 2px /*{f-bdown-shadow-x}*/ 3px /*{f-bdown-shadow-y}*/ 3px /*{f-bdown-shadow-radius}*/ #000 /*{f-bdown-shadow-color}*/;
@@ -1173,8 +1173,8 @@ html .ui-body-f .ui-slider-track .ui-btn-active,
 html body .ui-group-theme-f .ui-slider-track .ui-btn-active,
 html body div.ui-slider-track.ui-body-f .ui-btn-active {
 	background-color: #F0F0F0 /*{f-active-background-color}*/;
-	border-color: #5E5E5E /*{f-active-border}*/;
-	color: #5E5E5E /*{f-active-color}*/;
+	border-color: #18DF37 /*{f-active-border}*/;
+	color: #18DF37 /*{f-active-color}*/;
 	text-shadow: 0px /*{f-active-shadow-x}*/ 0px /*{f-active-shadow-y}*/ 0px /*{f-active-shadow-radius}*/ #000 /*{f-active-shadow-color}*/;
 }
 /* Active radio button icon */

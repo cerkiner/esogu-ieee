@@ -12,6 +12,23 @@
 	<script type="text/javascript" src="jquery.mobile/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="jquery.mobile/jquery.mobile-1.4.1.min.js"></script>
 	<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+	<style>
+	body,
+	.ui-page {
+	    min-height:100% !important;
+	    height:auto !important;
+	}
+	
+	.ui-content {
+	    margin-bottom:35px;
+	}
+	
+	.ui-footer {
+	    position:absolute !important;
+	    width:100%;
+	    bottom:0;
+	}
+	</style>
 	</head> 
 
 <body>
@@ -20,18 +37,19 @@
 <div data-role="page" id="main">
 
 	<div data-role="header" data-theme="a">
-<img src="images/esoguieee_yatay_logo_png-300x111.png" alt="ESOGU IEEE Student Branch" style="width:100%;">
+<img src="images/esoguieee_yatay_logo_png-300x111.png" alt="ESOGU IEEE Student Branch" style="position:relative;top:0px;left:50%;margin-left:-200px;">
 	</div><!-- /header -->
 	<div role="main" class="ui-content">
 		<a href="#ieee" class="ui-btn ui-btn-a" data-rel="dialog" data-transition="flip">IEEE Hakkında</a>
 		<a href="#about" class="ui-btn ui-btn-b" data-rel="dialog" data-transition="flip">ESOGU IEEE Hakkında</a>
 		<a href="#events" class="ui-btn ui-btn-c" data-rel="dialog" data-transition="flip">Etkinliklerimiz</a>
-		<a href="#com" class="ui-btn ui-btn-d" data-rel="dialog" data-transition="flip">İletişim Bilgileri</a>
-		<a href="#" onclick="window.open('http://esogu-ieee.com/', '_system');" class="ui-btn ui-btn-e" data-rel="dialog" data-transition="flip">Web Sitesi</a>
+		<a href="#pro" class="ui-btn ui-btn-d" data-rel="dialog" data-transition="flip">Projelerimiz</a>
+		<a href="#com" class="ui-btn ui-btn-e" data-rel="dialog" data-transition="flip">İletişim Bilgileri</a>
+		<a href="#" onclick="window.open('http://www.esogu-ieee.com/', '_system');" class="ui-btn ui-btn-f" data-rel="dialog" data-transition="flip">Web Sitesi</a>
 	</div><!-- /content -->
 
-  <div data-role="footer" data-position="fixed" data-theme="a" style="background:#4E616D;color:#b8d2e3;text-shadow:none;">
-  <h4 style="font-size:small;">Derse girmek zorunluluktur, IEEE farkındalık.</h4>
+  <div data-role="footer" data-theme="a" style="background:#4E616D;color:#b8d2e3;text-shadow:none;">
+  <h4 style="font-size:small;font-weight:lighter;"><i>Derse girmek zorunluluktur, IEEE farkındalık.</i></h4>
   </div><!-- /footer -->
 </div><!-- /page one -->
 
@@ -237,9 +255,41 @@ Bazı üniversitelerdeki Computer Science 101 dersinden esinlenerek ismi verilen
 	<p>Geçtiğimiz yıl beşincisi düzenlenen ve geleneksel hale getirdiğimiz etkinlik çerçevesinde, Türkiye'nin çeşitli üniversitelerinden gelen mühendislik öğrencileri ile sektörde söz sahibi firmaların temsilcileri ve kişisel gelişim uzmanları buluşturulmaktadır. Katılım gösteren dinleyicilerin kişisel gelişimine katkıda bulunmak ve geleceğini şekillendirmesine yardımcı olacak konular hakkında sunumlar yapılması planlanmaktadır. Şirketlerin kendilerini tanıtmaları amacıyla açılacak stantlarla; öğrenciler katılan şirketleri daha yakından tanıma fırsatı bulacaklardır. Amacımız öğrencilerin uzman kişilerin anlatımıyla istedikleri firmaları ve sektörleri rahatlıkla tanıyabilmesidir.</p>
 		
 		
+			
+	<h3>Bir Demlik Kariyer</h3> 
+	
+	<p>EMBS tarafından organizasyonu yürütülen Bir Demlik Kariyer etkinliklerinin ilki Unilever ile yapılmıştır. Çay sohbeti ile büyük salonların kalabalık katılımcılarıyla gerçekleşen etkinliklerden ziyade bu etkinlikte az sayıda katılımcı ile samimi bir ortamda oldukça faydalı bir etkinlik gerçekleştirilmiştir.</p>
+		
+		
 		
 	</div><!-- /content -->
 </div><!-- /page events -->
+
+
+
+
+<!-- Start of second page: #pro -->
+<div data-role="page" id="pro">
+	<div role="main" class="ui-content"  style="font-size:small;">
+	<a role="button" href="#main" data-rel="back" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+	
+	<h3>IEEE Academic</h3> 
+	
+			
+		<p>Gerçek bir çoklu dil desteğine sahip IEEE Academic, üniversite öğrencileri ve akademisyenlerin beraberce içerik oluşturdukları bir çevrimiçi eğitim kaynağıdır.</p>
+		<p>Teknoloji geliştikçe, öğrenciler eğitim materyalleri bulmak için interneti kullanmaktadır.</p>
+		<p>IEEE Academic, içerikleri birçok yerel kaynaktan gelen çevrimiçi eğitim materyallerini öğrencilerin ihtiyaçları doğrultusunda onlara sunma amacı taşıyan çevrimiçi bir içerik portalıdır.</p>
+		<p>Eskişehir Osmangazi Üniversitesi, Türkiye’de bu projenin bir nevi liderliğini yapmış, danışmanımız Sayın Prof.Dr. Hasan Hüseyin Erkaya’nın destekleri ile Electronics I dersi için video çekimlerini tamamlamıştır.</p>
+
+	<h3>IEEE Türkiye Kardeş Kollar Projesi (ITKK)</h3> 
+	
+<p>Bir&nbsp;koordinasyon ekibi tarafından takip mekanizması içerisinde yürüyen ITKK, Türkiye IEEE bünyesindeki kolları eşleştirmeyi hedefler. Bu eşleştirmelerin amacı, hem kollar arası tecrübe aktarımını sağlamak,&nbsp;hem yeni kurulan kollara destek olmak, hem ortak etkinlikler çıkararak daha geniş kitlelere hitap edebilmek, hem de iki kol arasında “kardeş” tabirini kullanarak kollardaki öğrencilerin network vizyonlarını geliştirmektir. Koordinasyon ekibi tarafından, bu yukarıda bahsettiğimiz amaçlar kontrol ve takip edilerek projenin amacına ulaşması sağlanır. Eskişehir Osmangazi Üniversitesi olarak 3 yıl önce Karadeniz Teknik Üniversitesi, 2 yıl önce Hacettepe Üniversitesi, geçen sene Bilkent ve 9 Eylül Üniversiteleri ile kardeşlik sağlanmıştır.</p>
+<p>Bu sene ise kulübümüz <strong>İstanbul Teknik Üniversitesi, Doğuş Üniversitesi ve Beykent Üniversitesi</strong> ile kardeş olmuştur.&nbsp;<strong>Ayrıca kulübümüz yönetim kurulu üyesi Elif Ünalan ITKK Koordinasyon Ekibi’nde görev almaktadır.</strong></p>
+<p>Bu kardeşlikler sayesinde yaptığımız etkinliklerimiz Eskişehir içerisinde kalmamakta, başka şehirlere de taşınmaktadır.</p>
+
+	</div><!-- /content -->
+</div><!-- /page pro -->
+
 
 
 <!-- Start of second page: #com -->
@@ -248,6 +298,13 @@ Bazı üniversitelerdeki Computer Science 101 dersinden esinlenerek ismi verilen
 	<a role="button" href="#main" data-rel="back" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
 	
 	<h3>İletişim Bilgileri</h3> 
+	<h4>Email</h4>
+	  <p>info@esogu-ieee.com</p>
+	  <p>destek@esogu-ieee.com</p>
+	  
+	<h4>Web Sitesi</h4>
+	  <p>http://www.esogu-ieee.com</p>
+	  
 	<h4>Adres</h4>
 	  <p>Eskisehir Osmangazi University
 Electrical Engineering Department (26480) Batimeselik, Eskisehir, Turkey</p>
