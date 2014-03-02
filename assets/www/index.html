@@ -28,6 +28,19 @@
 	    width:100%;
 	    bottom:0;
 	}
+	
+	@media all and (min-width: 500px) {
+	
+	body,
+	.ui-page {
+	    position:relative;
+	    width:500px !important;
+		top:0px;
+		left:50%;
+		margin-left:-250px;
+	}
+
+}
 	</style>
 	</head> 
 
@@ -37,15 +50,15 @@
 <div data-role="page" id="main">
 
 	<div data-role="header" data-theme="a">
-<img src="images/esoguieee_yatay_logo_png-300x111.png" alt="ESOGU IEEE Student Branch" style="position:relative;top:0px;left:50%;margin-left:-200px;">
+<img src="images/esoguieee_yatay_logo.png" alt="ESOGU IEEE Student Branch" style="position:relative;top:0px;left:50%;margin: 5px 0px 5px -142px;">
 	</div><!-- /header -->
 	<div role="main" class="ui-content">
-		<a href="#ieee" class="ui-btn ui-btn-a" data-rel="dialog" data-transition="flip">IEEE Hakkında</a>
-		<a href="#about" class="ui-btn ui-btn-b" data-rel="dialog" data-transition="flip">ESOGU IEEE Hakkında</a>
-		<a href="#events" class="ui-btn ui-btn-c" data-rel="dialog" data-transition="flip">Etkinliklerimiz</a>
-		<a href="#pro" class="ui-btn ui-btn-d" data-rel="dialog" data-transition="flip">Projelerimiz</a>
-		<a href="#com" class="ui-btn ui-btn-e" data-rel="dialog" data-transition="flip">İletişim Bilgileri</a>
-		<a href="#" onclick="window.open('http://www.esogu-ieee.com/', '_system');" class="ui-btn ui-btn-f" data-rel="dialog" data-transition="flip">Web Sitesi</a>
+		<a role="button" href="#ieee" class="ui-btn ui-btn-a" data-rel="dialog" data-transition="flip">IEEE Hakkında</a>
+		<a role="button" href="#about" class="ui-btn ui-btn-b" data-rel="dialog" data-transition="flip">ESOGU IEEE Hakkında</a>
+		<a role="button" href="#events" class="ui-btn ui-btn-c" data-rel="dialog" data-transition="flip">Etkinliklerimiz</a>
+		<a role="button" href="#pro" class="ui-btn ui-btn-d" data-rel="dialog" data-transition="flip">Projelerimiz</a>
+		<a role="button" href="#com" class="ui-btn ui-btn-e" data-rel="dialog" data-transition="flip">İletişim Bilgileri</a>
+		<a role="button" href="#" onclick="window.open('http://www.esogu-ieee.com/', '_system');" class="ui-btn ui-btn-f" data-rel="dialog" data-transition="flip">Web Sitesi</a>
 	</div><!-- /content -->
 
   <div data-role="footer" data-theme="a" style="background:#4E616D;color:#b8d2e3;text-shadow:none;">
@@ -56,7 +69,7 @@
 <!-- Start of second page: #ieee -->
 <div data-role="page" id="ieee">
 	<div role="main" class="ui-content"  style="font-size:small;">
-	<a role="button" href="#main" data-rel="back" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+	<a role="button" href="#main" data-rel="back" class="ui-btn ui-btn-a ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
 	
 	<h3>IEEE Hakkında</h3> 
 	
@@ -153,7 +166,7 @@
 <!-- Start of third page: #about -->
 <div data-role="page" id="about">
 	<div role="main" class="ui-content"  style="font-size:small;">
-	<a role="button" href="#main" data-rel="back" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+	<a role="button" href="#main" data-rel="back" class="ui-btn ui-btn-b ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
 	
 	<h3>ESOGU IEEE Hakkında</h3> 
 	
@@ -237,7 +250,7 @@ Tasarım Komitesi Sorumlusu</li>
 <!-- Start of second page: #events -->
 <div data-role="page" id="events">
 	<div role="main" class="ui-content"  style="font-size:small;">
-	<a role="button" href="#main" data-rel="back" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+	<a role="button" href="#main" data-rel="back" class="ui-btn ui-btn-c ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
 	
 	<h3>Mezunlar Söyleşisi</h3> 
 	
@@ -262,6 +275,13 @@ Bazı üniversitelerdeki Computer Science 101 dersinden esinlenerek ismi verilen
 		
 		
 		
+			
+	<h3>Mühendislik Mutfağında Kadın</h3> 
+	
+	<p>29 Mart 2013 tarihinde Women in Engineering tarafından düzenlenen bu etkinlikte, kadın mühendislerin sektörde karşılaştıkları zorlukları ve kadın mühendislerin çalışma hayatındaki yerinin tartışıldığı söyleşi tarzında bir etkinlik olarak ortaya çıkmıştır. Moderatörlüğü Yrd. Doç. Dr. İnci Parlaktuna tarafından yapılan etkinlik büyük ilgi görmüş, öğrenciler arasındaki bilinci üst seviyeye taşımıştır.</p>
+		
+		
+		
 	</div><!-- /content -->
 </div><!-- /page events -->
 
@@ -271,7 +291,7 @@ Bazı üniversitelerdeki Computer Science 101 dersinden esinlenerek ismi verilen
 <!-- Start of second page: #pro -->
 <div data-role="page" id="pro">
 	<div role="main" class="ui-content"  style="font-size:small;">
-	<a role="button" href="#main" data-rel="back" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+	<a role="button" href="#main" data-rel="back" class="ui-btn ui-btn-d ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
 	
 	<h3>IEEE Academic</h3> 
 	
@@ -295,7 +315,7 @@ Bazı üniversitelerdeki Computer Science 101 dersinden esinlenerek ismi verilen
 <!-- Start of second page: #com -->
 <div data-role="page" id="com">
 	<div role="main" class="ui-content"  style="font-size:small;">
-	<a role="button" href="#main" data-rel="back" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+	<a role="button" href="#main" data-rel="back" class="ui-btn ui-btn-e ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
 	
 	<h3>İletişim Bilgileri</h3> 
 	<h4>Email</h4>
