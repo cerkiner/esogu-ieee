@@ -17,4 +17,6 @@
 
 	<icon src="images/icon.png" width="96" height="96"/>
 	
+	<plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
+	
 </widget>
