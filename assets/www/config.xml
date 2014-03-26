@@ -42,7 +42,9 @@
     <!-- Define app icon for each platform. -->
 	<icon src="images/icon.png" width="96" height="96"/>
 
-	<plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
+	<feature name="InAppBrowser">
+    <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+	</feature>
 	
     <access origin="*"/> <!-- allow local pages -->
 
